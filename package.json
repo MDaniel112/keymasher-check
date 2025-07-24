@@ -1,6 +1,6 @@
 {
   "name": "keymasher-check",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Check to see if strings are made of common patterns of random letters",
   "main": "index.js",
   "scripts": {
