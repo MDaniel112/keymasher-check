@@ -1,6 +1,6 @@
 # Keymasher Check
 
-Checks for common "keymashed" strings such as "qwe", "asdft", "aaaaaa", etc. This is a simple package that uses a regex to check whether or not a string is or not "keymashed"
+A simple package that checks for common "keymashed" strings such as "qwe", "asdft", "aaaaaa", and so on, using a simple score system.
 
 ## Installation
 
