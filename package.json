@@ -1,0 +1,19 @@
+{
+  "name": "keymasher-check",
+  "version": "1.0.0",
+  "description": "Check to see if strings are made of common patterns of random letters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDaniel112/keymasher-check.git"
+  },
+  "author": "mdaniel112",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDaniel112/keymasher-check/issues"
+  },
+  "homepage": "https://github.com/MDaniel112/keymasher-check#readme"
+}
