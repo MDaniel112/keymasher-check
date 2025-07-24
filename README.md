@@ -19,4 +19,4 @@ checkMash("This is not a random string"); // false
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](https://choosealicense.com/licenses/isc/)
