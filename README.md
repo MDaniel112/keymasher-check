@@ -23,4 +23,4 @@ console.log(checkMash("user feedback")); // { isKeymash: false, confidence: 0.1 
 
 ## License
 
-[ISC](https://choosealicense.com/licenses/isc/)
+[ISC](https://github.com/MDaniel112/keymasher-check/blob/main/LICENCE.txt)
