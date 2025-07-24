@@ -13,8 +13,12 @@ npm install keymasher-check
 ```javascript
 import { checkMash } from 'keymasher-check';
 
-checkMash("asdfasdf"); // true
-checkMash("This is not a random string"); // false
+console.log(analyzeKeymash("asdfasdf"));     // { isKeymash: true, confidence: 0.9 }
+console.log(analyzeKeymash("hello world"));  // { isKeymash: false, confidence: 0 }
+console.log(analyzeKeymash("qweqwe"));       // { isKeymash: true, confidence: 0.8 }
+console.log(analyzeKeymash("aaaaaaaa"));     // { isKeymash: true, confidence: 1 }
+console.log(analyzeKeymash("kfdlksjfdlk"));  // { isKeymash: true, confidence: ~0.6 }
+console.log(analyzeKeymash("user feedback")); // { isKeymash: false, confidence: 0.1 }
 ```
 
 ## License
